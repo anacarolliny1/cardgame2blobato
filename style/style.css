@@ -8,3 +8,11 @@ body {
     background-image: url(img/rosa.jpg);
     font-family: tomorrow;
 }
+
+.cartao_conteudo{
+    background-color: var(--card-front-color);
+    text-align: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+}
